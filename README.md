@@ -19,6 +19,15 @@ It loads text data, converts it into embeddings, stores it in a vector database,
 ---
 
 ## 🧠 Architecture Flow
+```mermaid
+Graph TD
+    A[Load Data] --> B[Split Text]
+    B --> C[Generate Embeddings]
+    C --> D[Store in FAISS]
+    D --> E[Retrieve Context]
+    E --> F["LLM (ChatOpenAI)"]
+    F --> G[Final Output]
+```
 
 
 ## 🧠 Architecture Flow
