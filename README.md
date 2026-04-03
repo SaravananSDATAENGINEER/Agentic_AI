@@ -21,6 +21,8 @@ It loads text data, converts it into embeddings, stores it in a vector database,
 ## 🧠 Architecture Flow
 
 ```
+graph TD
+
 Load Data → Split → Embed → Store → Retrieve → LLM → Output
 ```
 
