@@ -20,7 +20,7 @@ It loads text data, converts it into embeddings, stores it in a vector database,
 
 ## 🧠 Architecture Flow
 
-```
+
 ```mermaid
 flowchart LR
     A[📄 Load Data] --> B[✂️ Split Text]
